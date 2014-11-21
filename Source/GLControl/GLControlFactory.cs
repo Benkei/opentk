@@ -36,7 +36,7 @@ namespace OpenTK
     // Constructs GLControls.
     class GLControlFactory
     {
-        public IGLControl CreateGLControl(GraphicsMode mode, Control control)
+        public static IGLControl CreateGLControl(GraphicsMode mode, Control control)
         {
             if (mode == null)
                 throw new ArgumentNullException("mode");
