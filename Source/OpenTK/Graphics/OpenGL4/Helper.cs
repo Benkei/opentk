@@ -43,7 +43,7 @@ namespace OpenTK.Graphics.OpenGL4
         const string Library = "opengl32.dll";
         static readonly object sync_root = new object();
 
-        static IntPtr[] EntryPoints;
+        public static IntPtr[] EntryPoints;
         static byte[] EntryPointNames;
         static int[] EntryPointNameOffsets;
 

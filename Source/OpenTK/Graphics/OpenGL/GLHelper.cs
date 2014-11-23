@@ -77,7 +77,7 @@ namespace OpenTK.Graphics.OpenGL
 
         static readonly object sync_root = new object();
 
-        static IntPtr[] EntryPoints;
+        public static IntPtr[] EntryPoints;
         static byte[] EntryPointNames;
         static int[] EntryPointNameOffsets;
 
